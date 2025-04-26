@@ -1,0 +1,16 @@
+{
+	"git": {
+		"commit": {
+			"time": "2025-04-26 19:50:51",
+			"id": "04561e83f1ef4de42bc31794484c4dc4183dabb7",
+			"id.abbrev": "04561e8"
+		},
+		"branch": "master"
+	},
+	"build": {
+		"descript": "bright-blog",
+		"version": "1.0.0",
+		"time": "2025-04-26 19:52:00",
+		"name": "strugglebright"
+	}
+}
