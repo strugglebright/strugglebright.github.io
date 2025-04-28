@@ -1,0 +1,75 @@
+.home-page .home-page-left[data-v-c76e2252] {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 220px;
+  padding: 5px 15px 20px 15px;
+  background-size: cover;
+  position: fixed;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  z-index: 100;
+}
+.home-page .home-page-left .home-page-left-title[data-v-c76e2252] {
+  font-weight: bold;
+  font-size: 45px;
+  font-family: myFont;
+  text-align: center;
+  height: 75px;
+  flex-shrink: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+  cursor: pointer;
+}
+.home-page .home-page-left .home-page-left-list > .flex[data-v-c76e2252] {
+  align-items: center;
+  padding: 8px 20px;
+  margin: 12px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.home-page .home-page-left .home-page-left-list > .flex img[data-v-c76e2252] {
+  width: 20px;
+  margin-right: 10px;
+}
+.home-page .home-page-left .home-page-left-list > .flex[data-v-c76e2252]:hover {
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.home-page .home-page-left .home-page-left-list > .active[data-v-c76e2252] {
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.home-page .home-page-right[data-v-c76e2252] {
+  flex: 1 1;
+  margin-left: 220px;
+  height: 100vh;
+  padding: 15px;
+  transition: margin-left 0.3s ease;
+  will-change: margin-left;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.fade-enter-active[data-v-c76e2252],
+.fade-leave-active[data-v-c76e2252] {
+  transition: opacity 0.3s;
+}
+.fade-enter[data-v-c76e2252],
+.fade-leave-to[data-v-c76e2252] {
+  transition: all;
+  opacity: 0;
+}
+.skin-peeler[data-v-c76e2252] {
+  width: 56px;
+  height: 22px;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  z-index: 999;
+  cursor: pointer;
+}
+
