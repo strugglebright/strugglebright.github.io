@@ -1,0 +1,73 @@
+.conent[data-v-94062a22] {
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+.conent .refresh[data-v-94062a22] {
+  width: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  cursor: pointer;
+}
+.conent .soul[data-v-94062a22] {
+  width: calc((100% - 45px) / 4);
+  height: calc((100% - 15px) / 2);
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(60, 114, 139, 0.03);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border: 1px solid #fff;
+  align-items: center;
+  position: relative;
+}
+.conent .soul .soul-img[data-v-94062a22] {
+  width: 100%;
+  height: calc(100% - 80px);
+  position: relative;
+  overflow: hidden;
+}
+.conent .soul .soul-img img[data-v-94062a22] {
+  transform: translateZ(0);
+  will-change: transform;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transition: transform 1s ease;
+}
+.conent .soul .soul-cent[data-v-94062a22] {
+  height: 80px;
+  font-size: 12px;
+}
+.conent .soul .soul-cent .soul-top[data-v-94062a22] {
+  height: 100%;
+  line-height: 2;
+  text-indent: 2em;
+}
+.conent .soul .soul-cent .soul-bot[data-v-94062a22] {
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 25px;
+  padding-bottom: 5px;
+}
+.conent > .soul[data-v-94062a22]:nth-child(4n) {
+  margin-right: 0;
+}
+

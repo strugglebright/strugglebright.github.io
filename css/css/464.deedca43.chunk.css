@@ -1,0 +1,29 @@
+.code-view-cont[data-v-52ecfa3c] {
+  height: 100vh;
+  padding: 10px;
+}
+.code-view-cont[data-v-52ecfa3c] .code-view-root {
+  border: 1px solid #ddd;
+}
+.code-view-cont[data-v-52ecfa3c] .code-view-root .code-view-wrapper {
+  border: none;
+}
+.code-view-cont[data-v-52ecfa3c] .code-view-root .code-view-wrapper:hover {
+  border: none;
+}
+[data-v-52ecfa3c] .lightActive {
+  color: #000000;
+}
+[data-v-52ecfa3c] .darkActive {
+  color: #ffffff;
+}
+[data-v-52ecfa3c] .darkActive .cm-s-default.CodeMirror {
+  background-color: #242424 !important;
+}
+[data-v-52ecfa3c] .darkActive .output-header {
+  background-color: #242424 !important;
+}
+[data-v-52ecfa3c] .darkActive .output-container-preview {
+  background-color: #242424 !important;
+}
+
