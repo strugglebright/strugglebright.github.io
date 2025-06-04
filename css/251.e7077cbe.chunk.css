@@ -1,0 +1,32 @@
+.code-view-content[data-v-16a57559] {
+  height: 100vh;
+}
+.code-view-content[data-v-16a57559] .code-view-root {
+  border: 1px solid #ddd;
+}
+.code-view-content[data-v-16a57559] .code-view-root .code-view-wrapper {
+  border: none;
+}
+.code-view-content[data-v-16a57559] .code-view-root .code-view-wrapper:hover {
+  border: none;
+}
+.code-view-content-true[data-v-16a57559] {
+  min-height: 5rem; /*origin: 500px*/
+}
+.code-view-content-true .vue-repl[data-v-16a57559] {
+  overflow: auto !important;
+}
+.code-view-content-true[data-v-16a57559] .split-pane {
+  display: block !important;
+}
+.code-view-content-true[data-v-16a57559] .split-pane > div {
+  display: block !important;
+  width: 100% !important;
+}
+.code-view-content-true[data-v-16a57559] .split-pane > .right .output-header {
+  display: none !important;
+}
+.code-view-content-true[data-v-16a57559] .split-pane > .right .output-container {
+  overflow: auto !important;
+}
+
