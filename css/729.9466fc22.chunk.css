@@ -1,0 +1,103 @@
+.content-list > .flex[data-v-22bc0862] {
+  border-radius: 5px;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content-list > .flex .list-left[data-v-22bc0862] {
+  width: calc(100% - 200px);
+  cursor: pointer;
+  margin-right: 15px;
+}
+.content-list > .flex .list-left > div[data-v-22bc0862]:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+.content-list > .flex .list-left > div[data-v-22bc0862]:nth-child(2) {
+  line-height: 27px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.content-list > .flex .list-right[data-v-22bc0862] {
+  width: 185px;
+  height: 115px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.content-list > .flex .list-right img[data-v-22bc0862] {
+  transform: translateZ(0);
+  will-change: transform;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* 关键：保持比例填充 */
+  -o-object-position: center;
+     object-position: center;
+  /* 智能居中裁剪 */
+}
+@media screen and (max-width: 751px) {
+.content-list-true > .flex[data-v-22bc0862] {
+    border-radius: 0.05rem; /*origin: 5px*/;
+    padding: 0.15rem; /*origin: 15px*/
+}
+.content-list-true > .flex .list-left[data-v-22bc0862] {
+    width: calc(100% - 0.6rem); /*origin: calc(100% - 60px)*/;
+    flex-shrink: 0;
+    margin-right: 0rem; /*origin: 0px*/
+}
+.content-list-true > .flex .list-left > div[data-v-22bc0862]:nth-child(1) {
+    margin-bottom: 0;
+    font-size: 0.14rem; /*origin: 14px*/;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.content-list-true > .flex .list-left > div[data-v-22bc0862]:nth-child(2) {
+    line-height: 0.3rem; /*origin: 30px*/;
+    -webkit-line-clamp: 2;
+}
+.content-list-true > .flex .list-left[data-v-22bc0862] {
+    width: calc(100% - 1.15rem); /*origin: calc(100% - 115px)*/
+}
+.content-list-true > .flex .list-right[data-v-22bc0862] {
+    width: 1rem; /*origin: 100px*/;
+    height: 0.8rem; /*origin: 80px*/;
+    flex-shrink: 0;
+    margin-right: 0.15rem; /*origin: 15px*/;
+    border-radius: 0.04rem; /*origin: 4px*/;
+    overflow: hidden;
+}
+.content-list-true > .flex .list-right img[data-v-22bc0862] {
+    transform: translateZ(0);
+    will-change: transform;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    /* 关键：保持比例填充 */
+    -o-object-position: center;
+       object-position: center;
+    /* 智能居中裁剪 */
+    transition: transform 1s ease;
+    /* 悬停动效 */
+}
+}
+
+.conent[data-v-b325c1c4] {
+  width: 100%;
+}
+.conent .content-page[data-v-b325c1c4] {
+  justify-content: center;
+}
+@media screen and (max-width: 751px) {
+.conent .content-condition-true[data-v-b325c1c4] {
+    padding: 0;
+}
+}
+
