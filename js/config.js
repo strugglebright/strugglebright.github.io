@@ -1,1 +1,1 @@
-var CONFIG={author:"Bright"};
+var CONFIG={author:"Bright",gallery:"03"};
