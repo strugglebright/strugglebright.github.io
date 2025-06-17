@@ -1,0 +1,71 @@
+.conent[data-v-7e201459] {
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+.conent .soul[data-v-7e201459] {
+  width: calc((100% - 30px) / 3);
+  height: calc((100% - 65px) / 6.5);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(60, 114, 139, 0.03);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  align-items: center;
+  position: relative;
+}
+.conent .soul .soul-cent[data-v-7e201459] {
+  height: 80px;
+  font-size: 12px;
+  padding: 0px 15px;
+}
+.conent .soul .soul-cent .soul-top[data-v-7e201459] {
+  height: 100%;
+  line-height: 2;
+  text-indent: 2em;
+}
+.conent .soul .soul-cent .soul-bot[data-v-7e201459] {
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 25px;
+  padding-bottom: 5px;
+}
+.conent > .soul[data-v-7e201459]:nth-child(3n) {
+  margin-right: 0;
+}
+.conent .content-page[data-v-7e201459] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 751px) {
+.conent[data-v-7e201459] {
+    height: auto;
+}
+.conent .soul[data-v-7e201459] {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+.conent .soul .soul-cent[data-v-7e201459] {
+    height: 80px;
+    font-size: 12px;
+    padding: 0px 15px;
+}
+.conent .soul .soul-cent .soul-bot[data-v-7e201459] {
+    padding-right: 25px;
+    padding-bottom: 5px;
+}
+}
+
